@@ -53,10 +53,16 @@
       </plugin>
     </plugins>
   </build>
+
   <dependencies>
+    
     <dependency>
       <groupId>io.thorntail</groupId>
       <artifactId>jaxrs</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.thorntail</groupId>
+      <artifactId>cdi</artifactId>
     </dependency>
   </dependencies>
 </project>
