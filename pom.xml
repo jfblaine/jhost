@@ -34,7 +34,8 @@
             <version>${version.thorntail}</version>
             <configuration>
                <properties>
-                  <thorntail.https.certificate.generate>true</thorntail.https.certificate.generate>
+                  <thorntail.https.keystore.path>/var/run/secrets/java.io/keystores/keystore.jks</thorntail.https.keystore.path>
+                  <thorntail.https.keystore.password>changeit</thorntail.https.keystore.password>
                   <thorntail.https.port>8443</thorntail.https.port>
                   <java.net.preferIPv4Stack>true</java.net.preferIPv4Stack>
                </properties>
