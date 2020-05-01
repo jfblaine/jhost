@@ -1,6 +1,4 @@
 ############################
-# STEP 1 build executable binary
-############################
 FROM golang:1.13 AS builder
 
 WORKDIR /go/src/go-jhost
