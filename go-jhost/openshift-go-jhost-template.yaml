@@ -48,6 +48,8 @@ objects:
 - apiVersion: v1
   kind: Service
   metadata:
+    labels:
+      app: go-jhost
     name: go-jhost-loadbalancer
     namespace: "${NAMESPACE}"
   spec:
